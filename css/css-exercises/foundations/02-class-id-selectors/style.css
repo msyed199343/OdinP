@@ -1,0 +1,21 @@
+
+/* can use p but used class for exercise purpose */
+.class_1{
+    background-color:lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#number_2{
+    color: blue;
+    font-size: 36px;
+}
+
+.class_3{
+    font-size: 24px;
+}
+
+#id_5{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
