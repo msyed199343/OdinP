@@ -20,6 +20,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin: 10px;
 }
 
 .logo {
@@ -27,6 +28,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
 }
 
 button {
@@ -34,7 +36,11 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 4px 12px;
+  margin: 20px;
+  height: 30px;
+  
+  
 }
 
 a {
@@ -45,4 +51,24 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
+}
+
+.links {
+  display: flex;
+  
+}
+
+.header{
+  display: flex;
+}
+
+.notifications-2{
+  display: flex;
+  justify-content: right;
+  flex: 1;
+}
+
+li {
+  margin: 5px;
 }
