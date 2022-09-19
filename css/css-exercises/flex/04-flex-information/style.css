@@ -5,13 +5,27 @@ body {
 img {
   width: 100px;
   height: 100px;
+  justify-content: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 25px;
 }
 
+.items{
+ display: flex;
+ gap: 75px;
+}
+.both{
+  text-align: center;
+}
+
+.text {
+  
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
