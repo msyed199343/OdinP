@@ -12,6 +12,10 @@ body {
   color: white;
   display: flex;
   flex-shrink: 0;
+  font-weight: 900;
+  font-size: 32px;
+  padding-left: 10px;
+  align-items: center;
 
 }
 
@@ -21,12 +25,17 @@ body {
   color: darkmagenta;
   display: flex;
   flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   flex-shrink: 0;
+  color: white;
+  font-size: 24px;
 }
 
 .card {
@@ -37,8 +46,8 @@ body {
   margin: 10px;
   padding-top: 10px;
   height: 250px;
-  width: 150px;
-  flex:1;
+  width: 250px;
+
 }
 
 .middle{
@@ -47,24 +56,22 @@ body {
 }
 
 
-.top-middle{
-  display: flex;
-  
-}
 
-.bottom-middle{
-  display: flex;
-  
-}
 
 .content{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 25px;
-  flex: 1;
+  flex-wrap: wrap;
+  flex: 1 0 1000px;
 }
 
 a{
   all: unset;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 15px;
 }
